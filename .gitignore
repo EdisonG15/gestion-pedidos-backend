@@ -1,0 +1,31 @@
+# === Archivos de compilación Maven ===
+/target/
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === Archivos temporales o del sistema ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Archivos del editor VSCode (por si cambias) ===
+.vscode/
+
+# === Configuración personal de Spring Boot ===
+application.properties
+application.yml
+
+# === Archivos innecesarios de Spring Initializr ===
+HELP.md
