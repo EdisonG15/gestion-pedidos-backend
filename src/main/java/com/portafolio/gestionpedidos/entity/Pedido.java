@@ -1,5 +1,6 @@
 package com.portafolio.gestionpedidos.entity;
 
+import com.portafolio.gestionpedidos.enums.EstadoPedido;
 import jakarta.persistence.*;
 import lombok.Data;
 
